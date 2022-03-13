@@ -1,3 +1,4 @@
+<!--https://www.themoviedb.org/?language=pt-BR-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+
+    <!--OWL CSS-->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
     <title>Netflix</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">INSANOFLIX</h2>
             <nav>
                 <!--Alt + shift + Seta para baixo para clonar a linha para baixo-->
                 <a href="#">Inicio</a>
@@ -43,6 +49,29 @@
         </div>
     </main>
 
+    <div class="carrosel-films">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/mini-vikings.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini-vikings-v.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini-demon-slayer.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini-resident-evil.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini-allofusaredeath.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/024251c3e2.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 </body>
 </html>
